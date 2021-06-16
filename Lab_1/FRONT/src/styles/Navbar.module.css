@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+}
+
+.navigationContainer{
+    width: 100%;
+
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: #98ded9;
+}
+
+.logoLink{
+    font-weight: bold;
+    font-family: "Chandas";
+    background-color: #c7ffd8;
+    color: #161d6f;
+    padding: 0 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logoLink:hover {
+    cursor: pointer;
+    color: #b45508;
+}
+
+.button{
+    margin-left:1vw;
+}
+
+
+.invisible{
+    visibility: hidden;
+    width: 33.33vw
+}
+.backButtonWrapper{
+    width: 33.33vw
+}
+
+.backButton{
+    margin-left:1vw;
+}
+
+.authButtonWrapper{
+    width: 33.33vw;
+    display: flex;
+    justify-content: right;
+}
+
+.authButton{
+    margin-right: 1vw;
+}
+
+.btn .btn-danger .btn-block{
+    background-color: #9A9C00;
+}
+
+.logoWrapper{
+    width: 33.33vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+
+}

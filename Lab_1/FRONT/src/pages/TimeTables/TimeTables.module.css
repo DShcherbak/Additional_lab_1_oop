@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    width:100%;
+}
+
+.MainPageButton{
+    background: #1d86e1;
+    color:white;
+    font-size: 15px;
+    min-width:200px;
+    min-height: 200px;
+}

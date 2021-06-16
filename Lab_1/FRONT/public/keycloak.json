@@ -1,0 +1,8 @@
+{
+  "realm": "user",
+  "auth-server-url": "http://localhost:8180/auth/",
+  "resource": "my-react-client",
+  "public-client": true,
+  "confidential-port": 0,
+  "ssl-required": "none"
+}

@@ -1,0 +1,35 @@
+.listElement{
+    background: #c7ffd8;
+    color:#161d6f;
+    min-height: 20vh;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.routeCard{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90vw;
+    padding: 20px;
+    align-content: center;
+}
+
+.listElement:hover{
+    color: #b45508;
+}
+
+.listText{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.listOfRoutes{
+    padding-left: 0px;
+}
